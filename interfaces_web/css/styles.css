@@ -1,0 +1,183 @@
+@font-face {
+    font-family:QuickSand;
+    src: url(/home/ann1/soulierr/interfaces_web/font/Quicksand-Regular.otf);
+}
+
+body{
+    background-color: #838892;
+    max-width: 900px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: white;
+}
+
+nav{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    /*height: 200px;*/
+    background-color: #ff00ff;
+    justify-content: flex-end;
+    
+}
+
+nav > div{
+    background-color: #5BBDBF;
+    display: inline;
+    position: relative;
+    width: 100px;
+    display: flex;
+    
+
+    
+}
+
+nav a{
+    margin: auto;
+}
+
+.submenu{
+    position: absolute;
+    /*top: 200px;*/
+    left: 0px;
+    background-color: #aca;
+    display: none;
+}
+
+div:hover > .submenu {
+    display: block;
+
+}
+
+div:hover > .puce {
+    visibility: visible;
+}
+
+.puce{
+    visibility: hidden;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+article{
+    width: 60%;
+    background-color: #ccc;
+}
+aside{
+    width: 35%;
+    background-color: #ccc;
+}
+
+#facebook{
+    position: absolute;
+    right: 5px;
+    bottom: 45px;
+}
+
+#twitter{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+h2{
+    text-align: justify;
+    font-family: QuickSand;
+    padding: 10px 0;
+}
+
+h3{
+    border: solid;
+    border-color: #cccccc;  
+    border-width: 1px;  
+}
+
+p{
+    line-height: 150%;
+    text-indent: 5px;
+    margin: 30px 0 30px 0;
+}
+
+#spécialiste{
+    clear: left;
+}
+
+.pair{
+    background-color: #5bbdbf;
+}
+
+.impair{
+    background-color: #ff5850;
+}
+
+#chuck-jeune{
+    float: left;
+    max-height: 150px;
+    margin-right: 5px;
+}
+
+#beware{
+    max-height: 300px;
+    float: right;
+}
+
+.skill{
+    color: red;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+}a:visited {color: purple;}
+
+a:visited {color: #0088ff;}
+
+a:hover{color: orange;}
+
+thead{
+    background-color: #00aaff;
+}
+
+thead span.skill{
+    color: #640051;
+    padding: 0 5px;
+}
+
+table{
+    display: block;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+tbody tr:nth-child(odd) > td{
+    background-color: white;
+}
+
+tbody tr:nth-child(even) > td{
+    background-color: #ccc;
+}
+
+th:first-child{
+    position: sticky;
+    left: 0px;
+    background-color: #00aaff;
+}
+
+td:first-child{
+    position: sticky;
+    left: 0px;
+
+}
+
+td{
+    margin: auto;
+}
+
